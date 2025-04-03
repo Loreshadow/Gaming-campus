@@ -51,4 +51,13 @@
         left: 5%;
     }
    }
+
+   @media screen and (max-width: 425px) {
+    #footer-primary-content::after {
+        content: "";
+        bottom: -10%;
+        width: 80%;
+        left: 7.5%;
+    }
+   }
    
