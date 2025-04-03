@@ -6,3 +6,19 @@
     font-family: "roboto";
     src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
 }
+
+.cta {
+    border: 1px solid white;
+    padding: 0.5% 1.5%;
+    margin-top: 1.5%;
+}
+
+.cta--primary {
+    margin-top: 5%;
+    padding: 2% 5%;
+}
+
+.cta--secondary {
+    border: 1px solid black;
+    margin-left: 2.5%;
+}
