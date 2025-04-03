@@ -22,3 +22,34 @@
     border: 1px solid black;
     margin-left: 2.5%;
 }
+
+#border::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 7px;
+    background-color: blueviolet;
+    position: absolute;
+    top: -50%;
+    left: 0;
+}
+
+#footer-primary-content::after {
+    content: "";
+    display: inline-block;
+    width: 75%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.485);
+    position: absolute;
+    bottom: -20%;
+}
+
+@media screen and (max-width: 1024px) {
+    #footer-primary-content::after {
+        content: "";
+        bottom: -10%;
+        width: 100%;
+        left: 5%;
+    }
+   }
+   
