@@ -47,7 +47,7 @@
     #footer-primary-content::after {
         content: "";
         bottom: -10%;
-        width: 100%;
+        width: 90%;
         left: 5%;
     }
    }
