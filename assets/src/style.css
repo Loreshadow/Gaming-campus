@@ -22,6 +22,11 @@
     border: 1px solid black;
 }
 
+.news-link {
+    position: absolute;
+    bottom: 0rem;
+}
+
 #border::after {
     content: "";
     display: inline-block;
@@ -42,6 +47,18 @@
     position: absolute;
     bottom: -20%;
 }
+
+@media screen and (max-width: 1279px) {
+    .news-link {
+        position: inherit;
+    }
+    #footer-primary-content::after {
+        content: "";
+        bottom: -10%;
+        width: 90%;
+        left: 7.5%;
+    }
+   }
 
 @media screen and (max-width: 1024px) {
     #footer-primary-content::after {
